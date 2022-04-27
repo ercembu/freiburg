@@ -1,0 +1,9 @@
+# PyTorch installation included for the testing workflow on github classroom.
+# For your own installation, use requirements.txt instead.
+ConfigSpace>=0.4.16
+networkx==2.5
+numpy>=1.19
+pytest>=6.1
+pycodestyle>=2.6
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cpu

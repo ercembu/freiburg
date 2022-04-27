@@ -1,0 +1,45 @@
+
+{
+  "tests": [
+    {
+      "name": "Test Distributions",
+      "setup": "",
+      "run": "python -m pytest -p no:warnings tests/test_distributions.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test VAE",
+      "setup": "",
+      "run": "python -m pytest -p no:warnings tests/test_vae.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test VAE Loss",
+      "setup": "",
+      "run": "python -m pytest -p no:warnings tests/test_loss.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test GAN",
+      "setup": "",
+      "run": "python -m pytest -p no:warnings tests/test_gan.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

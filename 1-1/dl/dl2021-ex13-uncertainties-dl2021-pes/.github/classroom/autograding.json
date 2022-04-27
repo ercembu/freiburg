@@ -1,0 +1,55 @@
+
+{
+  "tests": [
+    {
+      "name": "Test Bayesian Linear Regression (linreg_bayes)",
+      "setup": "",
+      "run": "python -m pytest tests/test_linreg_bayes.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+        {
+      "name": "Test Bayesian Linear Regression (posterior_predictive)",
+      "setup": "",
+      "run": "python -m pytest tests/test_post_predictive.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test DNGO",
+      "setup": "",
+      "run": "python -m pytest tests/test_dngo.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test Ensemble",
+      "setup": "",
+      "run": "python -m pytest tests/test_ensemble.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test Code-Style",
+      "setup": "",
+      "run": "pycodestyle --max-line-length 120 .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

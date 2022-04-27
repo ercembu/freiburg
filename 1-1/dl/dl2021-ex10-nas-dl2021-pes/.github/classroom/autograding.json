@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test Categorical Operator",
+      "setup": "",
+      "run": "python -m pytest tests/test_categorical_op.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test Cell",
+      "setup": "",
+      "run": "python -m pytest tests/test_cell.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+{
+      "name": "Test Macro",
+      "setup": "",
+      "run": "python -m pytest tests/test_macro.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+{
+      "name": "Test Benchmark API",
+      "setup": "",
+      "run": "python -m pytest tests/test_benchmark_api.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test Code-Style",
+      "setup": "",
+      "run": "pycodestyle --max-line-length 120 .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

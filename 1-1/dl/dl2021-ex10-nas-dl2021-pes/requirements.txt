@@ -1,0 +1,4 @@
+networkx==2.5
+numpy>=1.19
+pytest>=6.1
+pycodestyle>=2.6

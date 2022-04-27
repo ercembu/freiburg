@@ -1,0 +1,45 @@
+
+{
+  "tests": [
+    {
+      "name": "Test Randomsearch",
+      "setup": "",
+      "run": "python -m pytest -p no:warnings tests/test_random_search.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test Convnet",
+      "setup": "",
+      "run": "python -m pytest -p no:warnings tests/test_convnet.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test BOHB",
+      "setup": "",
+      "run": "python -m pytest -p no:warnings tests/test_bohb.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test Code-Style",
+      "setup": "",
+      "run": "pycodestyle --max-line-length 120 .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
