@@ -1,0 +1,6 @@
+[submodule "1-2/patt/spr-exercises"]
+	path = 1-2/patt/spr-exercises
+	url = git@github.com:lmb-freiburg/spr-exercises.git
+[submodule "1-2/automl/ex02"]
+	path = 1-2/automl/ex02
+	url = git@github.com:automl-classroom/ex02-hpo-basics-ercem.git
